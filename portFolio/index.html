@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aman Kumar Singh - Portfolio</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Aman Kumar Singh</h1>
+   
+    <p class="email">📧 <a href="mailto:amankrsingh7079@gmail.com">amankrsingh7079@gmail.com</a></p>
+   <div class="social-links">
+  <a href="https://github.com/AmanKumarSingh7079" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://www.linkedin.com/in/aman-singh-1a11b1358" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a dedicated Backend Developer and Game Developer currently pursuing a B.Tech in Gaming Technology. I specialize in building scalable backend systems using Node.js, Express, MongoDB, and RabbitMQ. My projects span authentication systems, microservices, and educational VR games. I value clean code, modular design, and learning by building real-world applications.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> JavaScript, C++, C#, HTML, CSS</li>
+      <li><strong>Backend:</strong> Node.js, Express.js, MongoDB, JWT, RabbitMQ</li>
+      <li><strong>Frontend:</strong> EJS, HTML, CSS, JavaScript (basics)</li>
+      <li><strong>Game Dev:</strong> Unity, Blender, SteamVR</li>
+      <li><strong>Tools:</strong> Git, GitHub, NPM, Postman, VS Code</li>
+      <li><strong>Dev Practices:</strong> RESTful APIs, Microservices, MVC Architecture, Event-driven systems</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>Microservices Backend System <span>Apr 2025</span></h3>
+        <p><strong>Tech:</strong> Node.js, Express.js, MongoDB, RabbitMQ, JWT</p>
+        <ul>
+          <li>Developed Auth and Profile microservices communicating asynchronously via RabbitMQ</li>
+          <li>Implemented secure JWT-based authentication and MongoDB data storage</li>
+          <li>Designed for scalability and modularity to support future feature extensions</li>
+        </ul>
+        <a href="https://github.com/AmanKumarSingh7079/Basic_Auth-Profile_microservices_projectt" target="_blank" rel="noopener">GitHub Repo</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Blog + Comments Microservices <span>Jul 2025</span></h3>
+        <p><strong>Tech:</strong> Node.js, Express.js, MongoDB, RabbitMQ</p>
+        <ul>
+          <li>Built blog-service and comment-service with full CRUD functionality</li>
+          <li>On blog deletion, comment-service cleans related comments via POST_DELETED RabbitMQ event</li>
+          <li>Maintained separate DBs for each service to ensure decoupled architecture</li>
+        </ul>
+        <a href="https://github.com/AmanKumarSingh7079/Blog_Comment_Microservices" target="_blank" rel="noopener">GitHub Repo</a>
+      </div>
+
+      <div class="project-card">
+        <h3>easy-js-logger-custom <span>Apr - May 2025</span></h3>
+        <p><strong>Tech:</strong> Node.js, Express.js</p>
+        <ul>
+          <li>Created Express.js middleware for structured HTTP request logging</li>
+          <li>Published as a reusable NPM package</li>
+        </ul>
+        <a href="https://www.npmjs.com/package/easy-logger-js-custom" target="_blank" rel="noopener">NPM Package</a>
+      </div>
+
+      <div class="project-card">
+        <h3>jwt-boilerplate <span>Apr - May 2025</span></h3>
+        <p><strong>Tech:</strong> Node.js, Express.js, JWT</p>
+        <ul>
+          <li>Built a starter template for implementing JWT authentication in Express.js apps</li>
+          <li>Simplifies secure login systems for new backend projects</li>
+        </ul>
+        <a href="https://www.npmjs.com/package/jwt-boilerplate" target="_blank" rel="noopener">NPM Package</a>
+      </div>
+
+      <div class="project-card">
+        <h3>ip-rate-limit <span>Apr - May 2025</span></h3>
+        <p><strong>Tech:</strong> Node.js, Express.js</p>
+        <ul>
+          <li>Middleware to limit the rate of incoming requests based on client IP</li>
+          <li>Helps prevent abuse and API overload</li>
+        </ul>
+        <a href="https://www.npmjs.com/package/ip-rate-limit" target="_blank" rel="noopener">NPM Package</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Interactive Human Anatomy Game <span>Jan - Mar 2025</span></h3>
+        <p><strong>Tech:</strong> Unity, Blender, C#, SteamVR</p>
+        <ul>
+          <li>Designed an educational 3D game for learning human anatomy</li>
+          <li>Included click-based interactions and SteamVR support for immersive exploration</li>
+          <li>Focused on clean UI/UX and optimized 3D performance for low-end systems</li>
+        </ul>
+        <p><em></em></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="education">
+  <h2>Education</h2>
+
+  <div class="education-item">
+    <h3>Vellore Institute of Technology, Bhopal</h3>
+    <p><strong>B.Tech in Gaming Technology</strong></p>
+    <p>July 2023 – Present | CGPA: 7.77</p>
+  </div>
+
+  <div class="education-item" style="margin-top: 20px;">
+    <h3>Guru Gobind Singh Public School, Chas, Bokaro</h3>
+    <p>Senior Secondary (Class 12)</p>
+    <p>2021 – 2022</p>
+  </div>
+</section>
+
+
+  
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
